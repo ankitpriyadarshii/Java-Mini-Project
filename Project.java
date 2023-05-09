@@ -115,7 +115,7 @@ public class SwingProject implements ActionListener {
         //Button Functions
         
         
-        //Shounen 
+        	//Shounen 
 		if (e.getSource() == btn) {
 			try {
 				rs = stmt.executeQuery("SELECT Name FROM Anime where GENRE = 'Shounen'");
