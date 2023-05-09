@@ -98,9 +98,9 @@ public class SwingProject implements ActionListener {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Create a connection to the MySQL database
-            String conn_string = "jdbc:mysql://localhost/dbSwingProject";
-            String user = "root";
-            String password = "sqlroot";
+            String conn_string = "jdbc:mysql://localhost/DATABASE_NAME";
+            String user = "USER_NAME";
+            String password = "PASSWORD";
             conn = DriverManager.getConnection(conn_string, user, password);
 
             stmt = conn.createStatement();
